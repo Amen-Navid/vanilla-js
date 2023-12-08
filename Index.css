@@ -1,0 +1,184 @@
+body {
+  display: flex;
+  overflow-y: hidden;
+}
+
+.first-ass,
+.second-ass {
+  box-shadow: 10px 10px 10px green;
+  margin: 50px 0;
+  width: 50%;
+  text-align: center;
+  height: 87vh;
+}
+
+h1 {
+  color: green;
+  text-transform: uppercase;
+  font-size: 2em;
+  text-wrap: wrap;
+}
+
+h2 {
+  color: green;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  text-shadow: 0 2px silver;
+}
+
+#birthdate {
+  border: 2px solid rgba(90, 160, 90, 0.6);
+  width: 55%;
+  text-align: center;
+  font-size: 1.5em;
+  color: green;
+  border-radius: 4px;
+  box-shadow: 4px 2px 3px green;
+  margin: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:focus,
+select:focus {
+  border: none;
+  outline: none;
+}
+
+#calculate {
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1px;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 2s 150px ease-in-out;
+}
+
+#result {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: goldenrod;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: inherit !important;
+  width: auto;
+}
+
+.form {
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin: -8px 5%;
+  width: 40%;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  font-weight: 550;
+  color: goldenrod;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  text-wrap: wrap;
+}
+
+form input[type="text"],
+input[type="number"] {
+  border: 2px solid rgba(90, 160, 90, 0.6);
+  width: 35%;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: green;
+  border-radius: 10px;
+  box-shadow: -2px -2px 3px green;
+  margin: 12px;
+  padding: 5px;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  border: 10px solid goldenrod;
+  border-radius: 50%;
+  padding: 4px;
+  margin: 10px 10px -5px 25px;
+}
+input[type="radio"]:checked {
+  border-inline: 10px solid green;
+  padding: 3px;
+  rotate: 90deg;
+}
+
+select {
+  width: 160px;
+  color: green;
+  border-radius: 10px;
+  box-shadow: -2px -2px 3px green;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+  margin: 5px 0px;
+}
+
+select option:disabled {
+  background-color: rgb(0, 128, 0);
+  color: goldenrod;
+}
+
+select option[value="russia"] {
+  background-color: rgba(0, 0, 255, 0.6);
+  color: red;
+}
+select option[value="usa"] {
+  background-color: rgba(255, 0, 0, 0.9);
+  color: blue;
+}
+select option[value="others"] {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+label,
+input::placeholder {
+  color: green;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+#join {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 5px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+#gender-error,
+#country-error {
+  margin-top: -2px;
+}
+
+#messages {
+  display: none;
+  position: relative;
+}

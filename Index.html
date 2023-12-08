@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Age calculator/ Form Validation</title>
+    <link rel="stylesheet" href="Index.css">
+    <script src="index.js" defer></script>
+    <link rel="shortcut icon" href="/img/others.webp" type="image/x-icon">
+</head>
+
+<body>
+    <div class="first-ass">
+        <h1>age calculator</h1>
+        <h2>enter your birthdate</h2>
+        <label for="calender">
+        <input type="date" id="birthdate"> <br>
+        <button type="submit" id="calculate">calculate age</button>
+        <p id="result"></p>
+    </div>
+    <div class="second-ass">
+
+
+        <form class="form">
+            <h1>admission form</h1>
+            <p id="join-error">*all fields are required</p><br>
+            <input type="text" id="fname" placeholder="firstname"><br>
+            <p id="fname-error"></p>
+            <input type="text" id="lname" placeholder="lastname"><br>
+            <p id="lname-error"></p>
+            <input type="text" id="email" placeholder="email"><br>
+            <p id="email-error"></p>
+            <input type="number" id="age" placeholder="age"><br>
+            <p id="age-error"></p>
+            <label for="gender"></label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <p id="gender-error"></p>
+            <br>
+            <select id="country" name="country-select">
+                <option value="naionality" disabled selected>Choose Nationality</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="russia">Russia</option>
+                <option value="usa">United States of America</option>
+                <option value="others">Others</option>
+            </select><br>
+            <p id="country-error"></p>
+            <button type="submit" id="join">submit form</button>
+
+        </form>
+
+        <div id="messages">
+            <span id="male-image"></span>
+            <span id="female-image"></span></span>
+        </div>
+
+    </div>
+</body>
+
+</html>
