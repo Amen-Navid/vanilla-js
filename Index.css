@@ -17,6 +17,7 @@ h1 {
   text-transform: uppercase;
   font-size: 2em;
   text-wrap: wrap;
+  width:100%
 }
 
 h2 {
